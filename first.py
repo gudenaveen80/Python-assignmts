@@ -1,0 +1,1 @@
+print("thank god i got all things correctly")

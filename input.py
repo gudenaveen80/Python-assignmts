@@ -1,0 +1,5 @@
+this_input=input("enter a number:")
+this_input2=input("enter a number2")
+print(int(this_input)+int(this_input2))
+print(type(this_input))
+print(type(this_input2))

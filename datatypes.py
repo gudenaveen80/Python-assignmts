@@ -1,0 +1,11 @@
+a=4526
+b='naveen'
+c=54.5
+d=[10,30,40,50,60]
+e=(24,53,76,65)
+print(e)
+print(c)
+print(b)
+print(type(e))
+print(type(d))
+print(type(b))
