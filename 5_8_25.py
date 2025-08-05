@@ -14,21 +14,12 @@ print(result)
 
 
 
-
-
-
-
-
-
-
-
-
 # ii. Check if a year is a leap year.
 
 
 
 def leap_or_not(year):
-    if year % 400 == 0 or (year % 4 == 0 and year % 100 != 0):
+    if year % 400 == 0 or (year % 4 == 0 and year % 100!= 0):
         return "leap_year"
     else:
         return "not leap_year"
@@ -46,14 +37,8 @@ def leap_or_not(year):
 print(leap_or_not(1900))
 
 
-
-
-
-
 # iii. Write a program to classify a character entered by the user
 # as a vowel, consonant, or neither.
-
-
 
 def vowel_consonant(char1):
  vowel="AEIOUaeiou"
@@ -68,8 +53,6 @@ def vowel_consonant(char1):
 char1=input("enter a char:")
 vowel_consonant(char1)
 
-
-
 # iv. Calculate the grade of a student based on the marks they
 # score:
 # 1. 90-100: Grade A
@@ -78,11 +61,11 @@ vowel_consonant(char1)
 # 4. <70: Fail.
 
 def student_grade(marks):
-    if marks>90:
+    if marks>=90:
         return "A"
-    elif marks>80:
+    elif marks>=80:
         return "B"
-    elif marks>70:
+    elif marks>=70:
         return "C"
     else:
         return "Fail"
@@ -104,4 +87,5 @@ def valid_triangle(side_1, side_2, side_3):
 side_1 = int(input("Enter a side_1: "))
 side_2 = int(input("Enter a side_2: "))
 side_3 = int(input("Enter a side_3: "))
+
 valid_triangle(side_1, side_2, side_3)
